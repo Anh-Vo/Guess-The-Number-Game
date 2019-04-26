@@ -2,16 +2,21 @@ package academy.learnprogramming.config;
 
 import academy.learnprogramming.GuessCount;
 import academy.learnprogramming.MaxNumber;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
+@PropertySource("classpath:config/game.properties")
 public class GameConfig {
 
     // == fields ==
-    private int maxNumber = 25;
+    @Value("${game.maxNumber}")
+    private int maxNumber;
 
-    private int guessCount = 8;
+    @Value("${game.guessCount}")
+    private int guessCount;
 
     // == bean methods ==
     @Bean
