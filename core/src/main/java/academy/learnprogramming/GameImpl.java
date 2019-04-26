@@ -15,7 +15,10 @@ public class GameImpl implements Game {
     // == Fields ==
     @Autowired
     private NumberGenerator numberGenerator;
+
+    @Autowired
     private int guessCount = 10;
+
     private int number;
     private int guess;
     private int smallest;
@@ -100,6 +103,11 @@ public class GameImpl implements Game {
     @Override
     public boolean isGameLost() {
         return !isGameWon() && remainingGuesses <= 0;
+    }
+
+    @Override
+    public int getGuessCount() {
+        return guessCount;
     }
 
     // == Private Methods ==

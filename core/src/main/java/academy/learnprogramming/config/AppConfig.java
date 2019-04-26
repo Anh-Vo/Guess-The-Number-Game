@@ -1,14 +1,13 @@
-package academy.learnprogramming;
+package academy.learnprogramming.config;
 
+import academy.learnprogramming.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.*;
 
 @Configuration
+@Import(GameConfig.class)
 @ComponentScan(basePackages = "academy.learnprogramming")
 public class AppConfig {
 
@@ -54,7 +53,7 @@ public class AppConfig {
 
             MessageGenerator messageGenerator =
                     context.getBean(MessageGenerator.class);
-            log.info("academy.learnprogramming.AppConfig.Main message: {}", messageGenerator.getMainMessage());
+            log.info("academy.learnprogramming.config.AppConfig.Main message: {}", messageGenerator.getMainMessage());
             log.info("Result message: {}", messageGenerator.getResultMessage());
 
             // close context (aka container)
