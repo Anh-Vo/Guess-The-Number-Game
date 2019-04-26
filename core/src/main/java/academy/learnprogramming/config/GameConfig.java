@@ -12,10 +12,10 @@ import org.springframework.context.annotation.PropertySource;
 public class GameConfig {
 
     // == fields ==
-    @Value("${game.maxNumber}")
+    @Value("${game.maxNumber:20}")
     private int maxNumber;
 
-    @Value("${game.guessCount}")
+    @Value("${game.guessCount:5}")
     private int guessCount;
 
     // == bean methods ==
