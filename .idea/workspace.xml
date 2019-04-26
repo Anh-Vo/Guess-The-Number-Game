@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b15d68-f2cd-421f-a018-9823843d6f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GuessCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MaxNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/AppConfig$Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,46 +33,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MaxNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GuessCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -84,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,24 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/resources/Logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -133,6 +102,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -176,8 +146,10 @@
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MaxNumber.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GuessCount.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" />
       </list>
     </option>
@@ -196,12 +168,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
+    <option name="x" value="804" />
     <option name="y" value="23" />
-    <option name="width" value="1031" />
+    <option name="width" value="876" />
     <option name="height" value="1014" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -305,6 +279,9 @@
       <recent name="$PROJECT_DIR$/console/src/main/java" />
       <recent name="$PROJECT_DIR$/console/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.learnprogramming" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console" />
       <recent name="$PROJECT_DIR$/console/src/main/java" />
@@ -395,7 +372,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="23" width="1031" height="1014" extended-state="0" />
+    <frame x="804" y="23" width="876" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -403,7 +380,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" sideWeight="0.5010846" side_tool="true" weight="0.19467402" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.21132457" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.21103117" />
       <window_info id="Structure" order="1" sideWeight="0.5013774" side_tool="true" weight="0.27894738" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -411,7 +388,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27006507" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27006507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,15 +408,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5010846" side_tool="true" weight="0.19467402" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4986226" visible="true" weight="0.27894738" />
-      <window_info id="Structure" order="6" sideWeight="0.5013774" side_tool="true" visible="true" weight="0.27894738" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4986226" visible="true" weight="0.21132457" />
+      <window_info id="Structure" order="6" sideWeight="0.5013774" side_tool="true" weight="0.27894738" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.21258135" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.27006507" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -448,7 +425,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3276316" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3265925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24977043" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
@@ -588,31 +565,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GuessCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="233">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -623,10 +586,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="651">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MaxNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
