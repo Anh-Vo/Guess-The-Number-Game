@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b15d68-f2cd-421f-a018-9823843d6f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/src/main/resources/Logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/classes/Logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/Logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/Logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/Logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/Logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +27,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="490">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="961">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -106,7 +122,6 @@
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGenerator.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/AppConfig.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Main.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -116,6 +131,7 @@
         <option value="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" />
         <option value="$PROJECT_DIR$/core/src/main/resources/Logback.xml" />
         <option value="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" />
       </list>
     </option>
   </component>
@@ -155,25 +171,25 @@
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -181,37 +197,11 @@
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
               <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="learnprogramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +329,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" sideWeight="0.5010846" side_tool="true" weight="0.19467402" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" weight="0.21132457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.21132457" />
       <window_info id="Structure" order="1" sideWeight="0.5013774" side_tool="true" weight="0.27894738" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -347,7 +337,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27114967" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27114967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,34 +399,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/core.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -554,8 +523,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="490">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
