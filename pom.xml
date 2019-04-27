@@ -19,6 +19,7 @@
         <java.version>11</java.version>
         <maven.version>3.7.0</maven.version>
         <annotation-api.verison>1.3.2</annotation-api.verison>
+        <lombok-version>1.18.6</lombok-version>
     </properties>
 
     <dependencyManagement>
@@ -43,6 +44,13 @@
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
                 <version>${annotation-api.verison}</version>
+            </dependency>
+
+            <!-- Lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
