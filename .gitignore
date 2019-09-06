@@ -3,3 +3,4 @@ gradle.xml
 .idea/libraries
 .idea/modules.xml
 */target
+*.class
