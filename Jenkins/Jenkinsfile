@@ -1,9 +1,22 @@
 pipeline {
    agent any
+   tools {
+      maven 'Maven 3.3.9'
+      jdk 'jdk8'
+   }
    stages {
-      stage('') {
+      stage('Maven Build') {
          steps {
-            echo 'Hello'
+            echo'Begin Maven Build'
+            sh 'mvn clean install'
+         }
+         post {
+            succes {
+               echo 'Build Successful!'
+            }
+            failure {
+               echo 'Build Failed!'
+            }
          }
       }
    }
