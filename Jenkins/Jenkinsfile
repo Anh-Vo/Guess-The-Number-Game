@@ -14,6 +14,8 @@ pipeline {
          post {
             success {
                echo 'Build Successful!'
+               echo 'Archiving Artifacts'
+               archiveArtifacts artifacts: '**/*'
             }
             failure {
                echo 'Build Failed!'
