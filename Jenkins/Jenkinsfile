@@ -15,7 +15,7 @@ pipeline {
             success {
                echo 'Build Successful!'
                echo 'Archiving Artifacts'
-               archiveArtifacts artifacts: '**/*'
+               archiveArtifacts artifacts: '**/*.jar'
             }
             failure {
                echo 'Build Failed!'
