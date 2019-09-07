@@ -12,7 +12,7 @@ pipeline {
             sh 'mvn -B -DskipTests clean install'
          }
          post {
-            succes {
+            success {
                echo 'Build Successful!'
             }
             failure {
